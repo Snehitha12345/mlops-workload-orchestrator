@@ -1,0 +1,23 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv-test
+*.egg-info
+.coverage
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Python virtual environment
+lib/**/lambdas/*/python
+
+# Environments
+.env
+env/
+venv/
+.venv*
+ENV/
+env.bak/
+venv.bak/
